@@ -6,17 +6,7 @@
   --highlight-color: #416a8e; /* Muted Blue */
   --light-highlight-color: #7a9fc2; /* Light Blue */
 }
-/* grid visualisation CSS for testing */
 
-.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid red;
-    background-color: lightgray;
-}
 /* Navbar customization */
 .navbar {
   /* placeholder */
