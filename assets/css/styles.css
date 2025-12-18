@@ -1,10 +1,11 @@
 :root {
 /* Color Variables */
-  --primary-font: "Inter", sans-serif;
-  --secondary-font: "Macondo", cursive;
-  --primary-color: #3a2620; /* Dark Brown */
-  --highlight-color: #416a8e; /* Muted Blue */
-  --light-highlight-color: #7a9fc2; /* Light Blue */
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
 }
 
 
@@ -53,6 +54,39 @@ header .lead{
 }
 #services .card{
   margin-bottom: 1.5rem;
+}
+/*new games section*/
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+/*footer contact section*/
+#contact{
+  background-color: var(--primary-color);
+  color: white;
+  padding-bottom: 3rem;
+}
+#contact h2{
+  color:white;
+}
+#contact .sub-heading-color{
+  color: var(--light-highlight-color);
+}
+#contact i{
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+
+#contact .social-links i{
+  color: var(--light-highlight-color);
+  font-size: 1.9rem;
+  margin-right: 15px;
+  transition: color 0.3s easy-in-out;
+}
+
+#contact .social-links i:hover{
+  color: var(--secondary-color);
 }
 
 /*media queeries*/
