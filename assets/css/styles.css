@@ -70,7 +70,7 @@ header .lead{
   color:white;
 }
 #contact .sub-heading-color{
-  color: var(--light-highlight-color);
+  color: var(--highlight-color-light);
 }
 #contact i{
   color: var(--secondary-color);
@@ -79,7 +79,7 @@ header .lead{
 }
 
 #contact .social-links i{
-  color: var(--light-highlight-color);
+  color: var(--highlight-color-light);
   font-size: 1.9rem;
   margin-right: 15px;
   transition: color 0.3s easy-in-out;
@@ -88,7 +88,9 @@ header .lead{
 #contact .social-links i:hover{
   color: var(--secondary-color);
 }
-
+#contact table * {
+  background-color: transparent;
+}
 /*media queeries*/
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
@@ -121,14 +123,3 @@ header .lead{
         min-height: 195px;
     }
 }
-/* grid visualisation CSS for testing */
-
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
