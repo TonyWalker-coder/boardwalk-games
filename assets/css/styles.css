@@ -102,6 +102,14 @@ h2 {
     border: none;
 }
 
+/*events section*/
+#events{
+  /*place holder text*/
+}
+#events .discount-note {
+    background-color: var(--highlight-color);
+    color:white;
+}
 /* Footer / contact */
 
 #contact {
