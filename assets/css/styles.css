@@ -101,7 +101,9 @@ h2 {
 #fav-games .card {
     border: none;
 }
-
+#booking-form h2{
+    text-align: center;
+}
 /*events section*/
 #events{
   /*place holder text*/
